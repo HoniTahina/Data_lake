@@ -1,0 +1,7 @@
+=== KPI STORE_SALES INITIAL ===
+montant_net=1150529586.37 | tickets=89100 | panier=12912.79 | quantite=33755474
+=== KPI WEB_SALES INITIAL ===
+montant_net=1535374825.67 | commandes=89100 | panier=17232.04 | quantite=33724378
+=== DECEMBRE 2005 - LOTS REFRESH (montants nets) ===
+store_sales refresh : 11544261.51
+web_sales refresh : 15764416.32

@@ -1,0 +1,24 @@
+total 0
+drwxrwxrwx 1 root root 512 Nov 16 12:38 customer
+drwxrwxrwx 1 root root 512 Nov 16 12:38 customer_address
+drwxrwxrwx 1 root root 512 Nov 16 12:38 customer_demographics
+drwxrwxrwx 1 root root 512 Nov 16 12:38 date_dim
+drwxrwxrwx 1 root root 512 Nov 16 12:38 household_demographics
+drwxrwxrwx 1 root root 512 Nov 16 12:38 income_band
+drwxrwxrwx 1 root root 512 Nov 16 12:38 inventory
+drwxrwxrwx 1 root root 512 Nov 16 12:38 item
+drwxrwxrwx 1 root root 512 Nov 16 12:38 item_marketprices
+drwxrwxrwx 1 root root 512 Nov 16 12:38 product_reviews
+drwxrwxrwx 1 root root 512 Nov 16 12:38 promotion
+drwxrwxrwx 1 root root 512 Nov 16 12:38 reason
+drwxrwxrwx 1 root root 512 Nov 16 12:38 ship_mode
+drwxrwxrwx 1 root root 512 Nov 16 12:38 store
+drwxrwxrwx 1 root root 512 Nov 16 12:38 store_returns
+drwxrwxrwx 1 root root 512 Nov 16 12:38 store_sales
+drwxrwxrwx 1 root root 512 Nov 16 12:38 time_dim
+drwxrwxrwx 1 root root 512 Nov 16 12:38 warehouse
+drwxrwxrwx 1 root root 512 Nov 16 12:38 web_clickstreams
+drwxrwxrwx 1 root root 512 Nov 16 12:38 web_page
+drwxrwxrwx 1 root root 512 Nov 16 12:38 web_returns
+drwxrwxrwx 1 root root 512 Nov 16 12:38 web_sales
+drwxrwxrwx 1 root root 512 Nov 16 12:39 web_site

@@ -1,0 +1,112 @@
+﻿table,position,colonne_officielle,type_hive_reference,contrainte_ddl,source
+item,1,i_item_sk,BIGINT,NOT NULL,TPCx-BB 1.7.0 annexe I
+item,2,i_item_id,STRING,NOT NULL,TPCx-BB 1.7.0 annexe I
+item,3,i_rec_start_date,STRING,non marqué NOT NULL,TPCx-BB 1.7.0 annexe I
+item,4,i_rec_end_date,STRING,non marqué NOT NULL,TPCx-BB 1.7.0 annexe I
+item,5,i_item_desc,STRING,non marqué NOT NULL,TPCx-BB 1.7.0 annexe I
+item,6,i_current_price,"DECIMAL(7,2)",non marqué NOT NULL,TPCx-BB 1.7.0 annexe I
+item,7,i_wholesale_cost,"DECIMAL(7,2)",non marqué NOT NULL,TPCx-BB 1.7.0 annexe I
+item,8,i_brand_id,INT,non marqué NOT NULL,TPCx-BB 1.7.0 annexe I
+item,9,i_brand,STRING,non marqué NOT NULL,TPCx-BB 1.7.0 annexe I
+item,10,i_class_id,INT,non marqué NOT NULL,TPCx-BB 1.7.0 annexe I
+item,11,i_class,STRING,non marqué NOT NULL,TPCx-BB 1.7.0 annexe I
+item,12,i_category_id,INT,non marqué NOT NULL,TPCx-BB 1.7.0 annexe I
+item,13,i_category,STRING,non marqué NOT NULL,TPCx-BB 1.7.0 annexe I
+item,14,i_manufact_id,INT,non marqué NOT NULL,TPCx-BB 1.7.0 annexe I
+item,15,i_manufact,STRING,non marqué NOT NULL,TPCx-BB 1.7.0 annexe I
+item,16,i_size,STRING,non marqué NOT NULL,TPCx-BB 1.7.0 annexe I
+item,17,i_formulation,STRING,non marqué NOT NULL,TPCx-BB 1.7.0 annexe I
+item,18,i_color,STRING,non marqué NOT NULL,TPCx-BB 1.7.0 annexe I
+item,19,i_units,STRING,non marqué NOT NULL,TPCx-BB 1.7.0 annexe I
+item,20,i_container,STRING,non marqué NOT NULL,TPCx-BB 1.7.0 annexe I
+item,21,i_manager_id,INT,non marqué NOT NULL,TPCx-BB 1.7.0 annexe I
+item,22,i_product_name,STRING,non marqué NOT NULL,TPCx-BB 1.7.0 annexe I
+store_sales,1,ss_sold_date_sk,BIGINT,non marqué NOT NULL,TPCx-BB 1.7.0 annexe I
+store_sales,2,ss_sold_time_sk,BIGINT,non marqué NOT NULL,TPCx-BB 1.7.0 annexe I
+store_sales,3,ss_item_sk,BIGINT,NOT NULL,TPCx-BB 1.7.0 annexe I
+store_sales,4,ss_customer_sk,BIGINT,non marqué NOT NULL,TPCx-BB 1.7.0 annexe I
+store_sales,5,ss_cdemo_sk,BIGINT,non marqué NOT NULL,TPCx-BB 1.7.0 annexe I
+store_sales,6,ss_hdemo_sk,BIGINT,non marqué NOT NULL,TPCx-BB 1.7.0 annexe I
+store_sales,7,ss_addr_sk,BIGINT,non marqué NOT NULL,TPCx-BB 1.7.0 annexe I
+store_sales,8,ss_store_sk,BIGINT,non marqué NOT NULL,TPCx-BB 1.7.0 annexe I
+store_sales,9,ss_promo_sk,BIGINT,non marqué NOT NULL,TPCx-BB 1.7.0 annexe I
+store_sales,10,ss_ticket_number,BIGINT,NOT NULL,TPCx-BB 1.7.0 annexe I
+store_sales,11,ss_quantity,INT,non marqué NOT NULL,TPCx-BB 1.7.0 annexe I
+store_sales,12,ss_wholesale_cost,"DECIMAL(7,2)",non marqué NOT NULL,TPCx-BB 1.7.0 annexe I
+store_sales,13,ss_list_price,"DECIMAL(7,2)",non marqué NOT NULL,TPCx-BB 1.7.0 annexe I
+store_sales,14,ss_sales_price,"DECIMAL(7,2)",non marqué NOT NULL,TPCx-BB 1.7.0 annexe I
+store_sales,15,ss_ext_discount_amt,"DECIMAL(7,2)",non marqué NOT NULL,TPCx-BB 1.7.0 annexe I
+store_sales,16,ss_ext_sales_price,"DECIMAL(7,2)",non marqué NOT NULL,TPCx-BB 1.7.0 annexe I
+store_sales,17,ss_ext_wholesale_cost,"DECIMAL(7,2)",non marqué NOT NULL,TPCx-BB 1.7.0 annexe I
+store_sales,18,ss_ext_list_price,"DECIMAL(7,2)",non marqué NOT NULL,TPCx-BB 1.7.0 annexe I
+store_sales,19,ss_ext_tax,"DECIMAL(7,2)",non marqué NOT NULL,TPCx-BB 1.7.0 annexe I
+store_sales,20,ss_coupon_amt,"DECIMAL(7,2)",non marqué NOT NULL,TPCx-BB 1.7.0 annexe I
+store_sales,21,ss_net_paid,"DECIMAL(7,2)",non marqué NOT NULL,TPCx-BB 1.7.0 annexe I
+store_sales,22,ss_net_paid_inc_tax,"DECIMAL(7,2)",non marqué NOT NULL,TPCx-BB 1.7.0 annexe I
+store_sales,23,ss_net_profit,"DECIMAL(7,2)",non marqué NOT NULL,TPCx-BB 1.7.0 annexe I
+web_sales,1,ws_sold_date_sk,BIGINT,non marqué NOT NULL,TPCx-BB 1.7.0 annexe I
+web_sales,2,ws_sold_time_sk,BIGINT,non marqué NOT NULL,TPCx-BB 1.7.0 annexe I
+web_sales,3,ws_ship_date_sk,BIGINT,non marqué NOT NULL,TPCx-BB 1.7.0 annexe I
+web_sales,4,ws_item_sk,BIGINT,NOT NULL,TPCx-BB 1.7.0 annexe I
+web_sales,5,ws_bill_customer_sk,BIGINT,non marqué NOT NULL,TPCx-BB 1.7.0 annexe I
+web_sales,6,ws_bill_cdemo_sk,BIGINT,non marqué NOT NULL,TPCx-BB 1.7.0 annexe I
+web_sales,7,ws_bill_hdemo_sk,BIGINT,non marqué NOT NULL,TPCx-BB 1.7.0 annexe I
+web_sales,8,ws_bill_addr_sk,BIGINT,non marqué NOT NULL,TPCx-BB 1.7.0 annexe I
+web_sales,9,ws_ship_customer_sk,BIGINT,non marqué NOT NULL,TPCx-BB 1.7.0 annexe I
+web_sales,10,ws_ship_cdemo_sk,BIGINT,non marqué NOT NULL,TPCx-BB 1.7.0 annexe I
+web_sales,11,ws_ship_hdemo_sk,BIGINT,non marqué NOT NULL,TPCx-BB 1.7.0 annexe I
+web_sales,12,ws_ship_addr_sk,BIGINT,non marqué NOT NULL,TPCx-BB 1.7.0 annexe I
+web_sales,13,ws_web_page_sk,BIGINT,non marqué NOT NULL,TPCx-BB 1.7.0 annexe I
+web_sales,14,ws_web_site_sk,BIGINT,non marqué NOT NULL,TPCx-BB 1.7.0 annexe I
+web_sales,15,ws_ship_mode_sk,BIGINT,non marqué NOT NULL,TPCx-BB 1.7.0 annexe I
+web_sales,16,ws_warehouse_sk,BIGINT,non marqué NOT NULL,TPCx-BB 1.7.0 annexe I
+web_sales,17,ws_promo_sk,BIGINT,non marqué NOT NULL,TPCx-BB 1.7.0 annexe I
+web_sales,18,ws_order_number,BIGINT,NOT NULL,TPCx-BB 1.7.0 annexe I
+web_sales,19,ws_quantity,INT,non marqué NOT NULL,TPCx-BB 1.7.0 annexe I
+web_sales,20,ws_wholesale_cost,"DECIMAL(7,2)",non marqué NOT NULL,TPCx-BB 1.7.0 annexe I
+web_sales,21,ws_list_price,"DECIMAL(7,2)",non marqué NOT NULL,TPCx-BB 1.7.0 annexe I
+web_sales,22,ws_sales_price,"DECIMAL(7,2)",non marqué NOT NULL,TPCx-BB 1.7.0 annexe I
+web_sales,23,ws_ext_discount_amt,"DECIMAL(7,2)",non marqué NOT NULL,TPCx-BB 1.7.0 annexe I
+web_sales,24,ws_ext_sales_price,"DECIMAL(7,2)",non marqué NOT NULL,TPCx-BB 1.7.0 annexe I
+web_sales,25,ws_ext_wholesale_cost,"DECIMAL(7,2)",non marqué NOT NULL,TPCx-BB 1.7.0 annexe I
+web_sales,26,ws_ext_list_price,"DECIMAL(7,2)",non marqué NOT NULL,TPCx-BB 1.7.0 annexe I
+web_sales,27,ws_ext_tax,"DECIMAL(7,2)",non marqué NOT NULL,TPCx-BB 1.7.0 annexe I
+web_sales,28,ws_coupon_amt,"DECIMAL(7,2)",non marqué NOT NULL,TPCx-BB 1.7.0 annexe I
+web_sales,29,ws_ext_ship_cost,"DECIMAL(7,2)",non marqué NOT NULL,TPCx-BB 1.7.0 annexe I
+web_sales,30,ws_net_paid,"DECIMAL(7,2)",non marqué NOT NULL,TPCx-BB 1.7.0 annexe I
+web_sales,31,ws_net_paid_inc_tax,"DECIMAL(7,2)",non marqué NOT NULL,TPCx-BB 1.7.0 annexe I
+web_sales,32,ws_net_paid_inc_ship,"DECIMAL(7,2)",non marqué NOT NULL,TPCx-BB 1.7.0 annexe I
+web_sales,33,ws_net_paid_inc_ship_tax,"DECIMAL(7,2)",non marqué NOT NULL,TPCx-BB 1.7.0 annexe I
+web_sales,34,ws_net_profit,"DECIMAL(7,2)",non marqué NOT NULL,TPCx-BB 1.7.0 annexe I
+inventory,1,inv_date_sk,BIGINT,NOT NULL,TPCx-BB 1.7.0 annexe I
+inventory,2,inv_item_sk,BIGINT,NOT NULL,TPCx-BB 1.7.0 annexe I
+inventory,3,inv_warehouse_sk,BIGINT,NOT NULL,TPCx-BB 1.7.0 annexe I
+inventory,4,inv_quantity_on_hand,INT,non marqué NOT NULL,TPCx-BB 1.7.0 annexe I
+date_dim,1,d_date_sk,BIGINT,NOT NULL,TPCx-BB 1.7.0 annexe I
+date_dim,2,d_date_id,STRING,NOT NULL,TPCx-BB 1.7.0 annexe I
+date_dim,3,d_date,STRING,non marqué NOT NULL,TPCx-BB 1.7.0 annexe I
+date_dim,4,d_month_seq,INT,non marqué NOT NULL,TPCx-BB 1.7.0 annexe I
+date_dim,5,d_week_seq,INT,non marqué NOT NULL,TPCx-BB 1.7.0 annexe I
+date_dim,6,d_quarter_seq,INT,non marqué NOT NULL,TPCx-BB 1.7.0 annexe I
+date_dim,7,d_year,INT,non marqué NOT NULL,TPCx-BB 1.7.0 annexe I
+date_dim,8,d_dow,INT,non marqué NOT NULL,TPCx-BB 1.7.0 annexe I
+date_dim,9,d_moy,INT,non marqué NOT NULL,TPCx-BB 1.7.0 annexe I
+date_dim,10,d_dom,INT,non marqué NOT NULL,TPCx-BB 1.7.0 annexe I
+date_dim,11,d_qoy,INT,non marqué NOT NULL,TPCx-BB 1.7.0 annexe I
+date_dim,12,d_fy_year,INT,non marqué NOT NULL,TPCx-BB 1.7.0 annexe I
+date_dim,13,d_fy_quarter_seq,INT,non marqué NOT NULL,TPCx-BB 1.7.0 annexe I
+date_dim,14,d_fy_week_seq,INT,non marqué NOT NULL,TPCx-BB 1.7.0 annexe I
+date_dim,15,d_day_name,STRING,non marqué NOT NULL,TPCx-BB 1.7.0 annexe I
+date_dim,16,d_quarter_name,STRING,non marqué NOT NULL,TPCx-BB 1.7.0 annexe I
+date_dim,17,d_holiday,STRING,non marqué NOT NULL,TPCx-BB 1.7.0 annexe I
+date_dim,18,d_weekend,STRING,non marqué NOT NULL,TPCx-BB 1.7.0 annexe I
+date_dim,19,d_following_holiday,STRING,non marqué NOT NULL,TPCx-BB 1.7.0 annexe I
+date_dim,20,d_first_dom,INT,non marqué NOT NULL,TPCx-BB 1.7.0 annexe I
+date_dim,21,d_last_dom,INT,non marqué NOT NULL,TPCx-BB 1.7.0 annexe I
+date_dim,22,d_same_day_ly,INT,non marqué NOT NULL,TPCx-BB 1.7.0 annexe I
+date_dim,23,d_same_day_lq,INT,non marqué NOT NULL,TPCx-BB 1.7.0 annexe I
+date_dim,24,d_current_day,STRING,non marqué NOT NULL,TPCx-BB 1.7.0 annexe I
+date_dim,25,d_current_week,STRING,non marqué NOT NULL,TPCx-BB 1.7.0 annexe I
+date_dim,26,d_current_month,STRING,non marqué NOT NULL,TPCx-BB 1.7.0 annexe I
+date_dim,27,d_current_quarter,STRING,non marqué NOT NULL,TPCx-BB 1.7.0 annexe I
+date_dim,28,d_current_year,STRING,non marqué NOT NULL,TPCx-BB 1.7.0 annexe I

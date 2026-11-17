@@ -1,0 +1,17 @@
+=== FORMAT STORE_SALES ===
+retail_project/data/store_sales/store_sales.dat: ASCII text, with CRLF line terminators
+=== 2 lignes STORE_SALES (séparateur et fins de ligne visibles) ===
+36890|71480|10001|44404|493944|2898|44093|10|294|0|31|18.00|30.78|23.08|238.70|715.48|558.00|954.18|21.46|0.00|715.48|736.94|157.48^M$
+36890|71480|10000|44404|493944|2898|44093|10|279|0|54|99.21|148.82|83.34|3535.92|4500.36|5357.34|8036.28|225.02|0.00|4500.36|4725.38|-856.98^M$
+=== item : 2 premières lignes ===
+0|AAAAAAAAAAAAAAAA|2000-01-14||quickly even dinos beneath the frays must have to boost boldly careful bold escapades: stealthily even forges over the dependencies integrate always past the quiet sly decoys-- notornis sol|72.29|64.96|3898712|71TS7NSbvH1YbdiQMG6ttBHKAljiNoIRB|1|Fan Shop|9|Sports & Outdoors|995|2VOxvrIWwlJQTSk6|small|99Ee1r6uFbZSSClAX3|dodger|Oz|Unknown|18|8m9n5Q7T33DNWidoA6nWlg6ydmpA1SKOoOJLXiLVb
+1|AAAAAAAAAAAAAAAB|2000-09-23||quietly quiet hockey players outside the furiously fluffy sauternes impress daringly silently quiet gifts? bold ruthless escapades run slyly epitaphs! warhorses of the carefull|95.67|30.57|2218494|qNBimHGBu763udH|4|New|3|Books|69|M0VWtUYYkxy6iEMa2XZOxQSCTxFrOqsXg|petite|dz1S8VrTflBJIq1kC61|tan|Dram|Unknown|91|CPB648WB37uUv5OCqjzYe7rH3T
+=== web_sales : 2 premières lignes ===
+36890|26789|36993|794|85457|380790|2436|42649|29934|1583844|5251|525|2|14|1|3|120|0|93|32.62|81.22|59.29|2039.49|5513.97|3033.66|7553.46|330.84|0.00|1661.76|5513.97|5844.81|7175.73|7506.57|2480.31
+36890|26789|36953|9897|85457|380790|2436|42649|29934|1583844|5251|525|46|28|17|2|282|0|60|20.14|31.62|25.30|379.20|1518.00|1208.40|1897.20|31.42|470.58|796.82|1047.42|1078.84|1844.24|1875.66|-160.98
+=== inventory : 2 premières lignes ===
+36890|0|0|503
+36890|1|0|624
+=== date_dim : 2 premières lignes ===
+0|AAAAAAAAAAAAAAAA|1900-01-01|0|0|0|1900|1|1|1|1|1900|0|0|Monday|1900Q1|Y|N|N|2448812|2458802|2472542|2420941|N|N|N|N|N
+1|AAAAAAAAAAAAAAAB|1900-01-02|0|0|0|1900|2|1|2|1|1900|0|0|Tuesday|1900Q1|Y|N|N|2441612|2427135|2449909|2430434|N|N|N|N|N

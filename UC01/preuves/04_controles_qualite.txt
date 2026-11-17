@@ -1,0 +1,10 @@
+=== ITEM : CHAMPS VIDES, FICHIER ENTIER ===
+lignes=17820
+colonne 4 : 17820 vides (100.0000%)
+colonne 5 : 4 vides (0.0224%)
+colonne 8 : 8 vides (0.0449%)
+colonne 9 : 6 vides (0.0337%)
+=== LIGNES STRICTEMENT IDENTIQUES STORE_SALES (nombre de motifs répétés) ===
+0
+=== CLE CANDIDATE DATE|MAGASIN|TICKET|PRODUIT : OCCURRENCES SUPPLEMENTAIRES ===
+4136
