@@ -1,0 +1,40 @@
+=== DATE ===
+2026-11-17T16:04:34+01:00
+=== OS ===
+PRETTY_NAME="Ubuntu 26.04.1 LTS"
+NAME="Ubuntu"
+VERSION_ID="26.04"
+VERSION="26.04.1 LTS (Resolute Raccoon)"
+VERSION_CODENAME=resolute
+ID=ubuntu
+ID_LIKE=debian
+HOME_URL="https://www.ubuntu.com/"
+SUPPORT_URL="https://help.ubuntu.com/"
+BUG_REPORT_URL="https://bugs.launchpad.net/ubuntu/"
+PRIVACY_POLICY_URL="https://www.ubuntu.com/legal/terms-and-policies/privacy-policy"
+UBUNTU_CODENAME=resolute
+LOGO=ubuntu-logo
+=== JAVA 17 ===
+openjdk version "17.0.21.0.3" 2026-10-24
+OpenJDK Runtime Environment (build 17.0.21.0.3+1-1-26.04.1-Ubuntu)
+OpenJDK 64-Bit Server VM (build 17.0.21.0.3+1-1-26.04.1-Ubuntu, mixed mode, sharing)
+=== HADOOP ===
+Hadoop 3.5.0
+Source code repository https://github.com/apache/hadoop.git -r dbcc7cd797100e6b32cd84f85b53a5193a5f9af0
+Compiled by cnauroth on 2026-03-24T16:56Z
+Compiled on platform linux-x86_64
+Compiled with protoc 3.25.5
+From source with checksum 64582ed0a62a169c39a19c734a8f33b5
+This command was run using /opt/hadoop/share/hadoop/common/hadoop-common-3.5.0.jar
+=== PROCESSUS JAVA ===
+1025 SecondaryNameNode
+769 DataNode
+2230 NiFi
+3256 Jps
+634 NameNode
+2206 BootstrapProcess
+=== CONFIGURATION ===
+hdfs://localhost:9000
+file:///home/honi/hadoop-data/namenode
+file:///home/honi/hadoop-data/datanode
+1

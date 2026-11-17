@@ -1,0 +1,72 @@
+===== DATE =====
+Tue Nov 17 14:35:06 CET 2026
+===== VERSION HADOOP =====
+Hadoop 3.5.0
+Source code repository https://github.com/apache/hadoop.git -r dbcc7cd797100e6b32cd84f85b53a5193a5f9af0
+Compiled by cnauroth on 2026-03-24T16:56Z
+===== PROCESSUS =====
+4964 Jps
+2727 DataNode
+2599 NameNode
+2968 SecondaryNameNode
+===== DATANODES =====
+Configured Capacity: 1081101176832 (1006.85 GB)
+Present Capacity: 1022207922176 (952.01 GB)
+DFS Remaining: 1022207877120 (952.01 GB)
+DFS Used: 45056 (44 KB)
+DFS Used%: 0.00%
+Replicated Blocks:
+	Under replicated blocks: 0
+	Blocks with corrupt replicas: 0
+	Missing blocks: 0
+	Missing blocks (with replication factor 1): 0
+	Badly Distributed Blocks: 0
+	Low redundancy blocks with highest priority to recover: 0
+	Pending deletion blocks: 0
+Erasure Coded Block Groups: 
+	Low redundancy block groups: 0
+	Block groups with corrupt internal blocks: 0
+	Missing block groups: 0
+	Badly Distributed Blocks: 0
+	Low redundancy blocks with highest priority to recover: 0
+	Pending deletion blocks: 0
+
+-------------------------------------------------
+Live datanodes (1):
+
+Name: 127.0.0.1:9866 (localhost)
+Hostname: DESKTOP-38E0JSC.localdomain
+Decommission Status : Normal
+Configured Capacity: 1081101176832 (1006.85 GB)
+DFS Used: 45056 (44 KB)
+Non DFS Used: 3900899328 (3.63 GB)
+DFS Remaining: 1022207877120 (952.01 GB)
+DFS Used%: 0.00%
+DFS Remaining%: 94.55%
+Configured Cache Capacity: 0 (0 B)
+Cache Used: 0 (0 B)
+Cache Remaining: 0 (0 B)
+Cache Used%: 100.00%
+Cache Remaining%: 0.00%
+Xceivers: 0
+Last contact: Tue Nov 17 14:35:09 CET 2026
+Last Block Report: Tue Nov 17 13:31:53 CET 2026
+Num of Blocks: 1
+
+
+===== ARBORESCENCE HDFS =====
+drwxr-xr-x   - honi supergroup          0 2026-11-17 14:07 /retail-lake/bronze
+drwxr-xr-x   - honi supergroup          0 2026-11-17 14:07 /retail-lake/bronze/tpcxbb
+drwxr-xr-x   - honi supergroup          0 2026-11-17 14:07 /retail-lake/gold
+drwxr-xr-x   - honi supergroup          0 2026-11-17 14:07 /retail-lake/logs
+drwxr-xr-x   - honi supergroup          0 2026-11-17 14:07 /retail-lake/quality
+drwxr-xr-x   - honi supergroup          0 2026-11-17 14:07 /retail-lake/raw
+drwxr-xr-x   - honi supergroup          0 2026-11-17 14:07 /retail-lake/raw/tpcxbb
+drwxr-xr-x   - honi supergroup          0 2026-11-17 14:09 /retail-lake/raw/tpcxbb/initial
+-rw-r--r--   1 honi supergroup       3386 2026-11-17 14:09 /retail-lake/raw/tpcxbb/initial/store.dat
+drwxr-xr-x   - honi supergroup          0 2026-11-17 14:07 /retail-lake/raw/tpcxbb/refresh
+drwxr-xr-x   - honi supergroup          0 2026-11-17 14:07 /retail-lake/silver
+===== EMPREINTE LOCALE =====
+a936bc38692bdddc222cf86d08ed9d0feb761af26769212d789cf6729d1808ef  retail_project/data/store/store.dat
+===== EMPREINTE HDFS =====
+a936bc38692bdddc222cf86d08ed9d0feb761af26769212d789cf6729d1808ef  -

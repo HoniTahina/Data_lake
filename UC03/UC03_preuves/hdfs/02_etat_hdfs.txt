@@ -1,0 +1,55 @@
+=== DATE ===
+2026-11-17T16:04:55+01:00
+=== ETAT HDFS ===
+Configured Capacity: 1081101176832 (1006.85 GB)
+Present Capacity: 1020711211008 (950.61 GB)
+DFS Remaining: 1020711161856 (950.61 GB)
+DFS Used: 49152 (48 KB)
+DFS Used%: 0.00%
+Replicated Blocks:
+	Under replicated blocks: 0
+	Blocks with corrupt replicas: 0
+	Missing blocks: 0
+	Missing blocks (with replication factor 1): 0
+	Badly Distributed Blocks: 0
+	Low redundancy blocks with highest priority to recover: 0
+	Pending deletion blocks: 0
+Erasure Coded Block Groups: 
+	Low redundancy block groups: 0
+	Block groups with corrupt internal blocks: 0
+	Missing block groups: 0
+	Badly Distributed Blocks: 0
+	Low redundancy blocks with highest priority to recover: 0
+	Pending deletion blocks: 0
+
+-------------------------------------------------
+Live datanodes (1):
+
+Name: 127.0.0.1:9866 (localhost)
+Hostname: DESKTOP-38E0JSC.localdomain
+Decommission Status : Normal
+Configured Capacity: 1081101176832 (1006.85 GB)
+DFS Used: 49152 (48 KB)
+Non DFS Used: 5397610496 (5.03 GB)
+DFS Remaining: 1020711161856 (950.61 GB)
+DFS Used%: 0.00%
+DFS Remaining%: 94.41%
+Configured Cache Capacity: 0 (0 B)
+Cache Used: 0 (0 B)
+Cache Remaining: 0 (0 B)
+Cache Used%: 100.00%
+Cache Remaining%: 0.00%
+Xceivers: 0
+Last contact: Tue Nov 17 16:04:58 CET 2026
+Last Block Report: Tue Nov 17 15:12:49 CET 2026
+Num of Blocks: 1
+
+
+=== RACINE ===
+Found 1 items
+drwxr-xr-x   - honi supergroup          0 2026-11-17 14:07 /retail-lake
+=== DROITS ===
+drwxr-xr-x   - honi supergroup          0 2026-11-17 14:07 /retail-lake
+drwxr-xr-x   - honi supergroup          0 2026-11-17 14:07 /retail-lake/raw
+drwxr-xr-x   - honi supergroup          0 2026-11-17 14:07 /retail-lake/raw/tpcxbb
+drwxr-xr-x   - honi supergroup          0 2026-11-17 14:09 /retail-lake/raw/tpcxbb/initial

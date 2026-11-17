@@ -1,0 +1,26 @@
+=== DATE ===
+2026-11-17T16:05:07+01:00
+=== ARBORESCENCE ===
+drwxr-xr-x   - honi supergroup          0 2026-11-17 14:07 /retail-lake/bronze
+drwxr-xr-x   - honi supergroup          0 2026-11-17 14:07 /retail-lake/bronze/tpcxbb
+drwxr-xr-x   - honi supergroup          0 2026-11-17 14:07 /retail-lake/gold
+drwxr-xr-x   - honi supergroup          0 2026-11-17 14:07 /retail-lake/logs
+drwxr-xr-x   - honi supergroup          0 2026-11-17 14:07 /retail-lake/quality
+drwxr-xr-x   - honi supergroup          0 2026-11-17 14:07 /retail-lake/raw
+drwxr-xr-x   - honi supergroup          0 2026-11-17 14:07 /retail-lake/raw/tpcxbb
+drwxr-xr-x   - honi supergroup          0 2026-11-17 14:09 /retail-lake/raw/tpcxbb/initial
+-rw-r--r--   1 honi supergroup       3386 2026-11-17 14:09 /retail-lake/raw/tpcxbb/initial/store.dat
+drwxr-xr-x   - honi supergroup          0 2026-11-17 14:07 /retail-lake/raw/tpcxbb/refresh
+drwxr-xr-x   - honi supergroup          0 2026-11-17 14:07 /retail-lake/silver
+=== FICHIER SOURCE ===
+-rwxrwxrwx 1 honi honi 3.4K Nov 15 23:34 /mnt/d/Dev/M5/Data lake/Cours 1/Retail-project/retail_project/data/store/store.dat
+/mnt/d/Dev/M5/Data lake/Cours 1/Retail-project/retail_project/data/store/store.dat: ASCII text, with very long lines (303), with CRLF line terminators
+=== FICHIER HDFS ===
+-rw-r--r--   1 honi supergroup      3.3 K 2026-11-17 14:09 /retail-lake/raw/tpcxbb/initial/store.dat
+=== TAILLES ===
+3386 /mnt/d/Dev/M5/Data lake/Cours 1/Retail-project/retail_project/data/store/store.dat
+3.3 K  3.3 K  /retail-lake/raw/tpcxbb/initial/store.dat
+=== SHA-256 SOURCE ===
+a936bc38692bdddc222cf86d08ed9d0feb761af26769212d789cf6729d1808ef  /mnt/d/Dev/M5/Data lake/Cours 1/Retail-project/retail_project/data/store/store.dat
+=== SHA-256 HDFS ===
+a936bc38692bdddc222cf86d08ed9d0feb761af26769212d789cf6729d1808ef  -
