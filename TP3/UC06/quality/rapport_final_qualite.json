@@ -1,0 +1,59 @@
+{
+  "tables": {
+    "silver_store": {
+      "chemin": "silver/uc06_store",
+      "lignes": 12,
+      "colonnes": 29
+    },
+    "silver_item": {
+      "chemin": "silver/uc06_item",
+      "lignes": 17820,
+      "colonnes": 22
+    },
+    "silver_store_sales": {
+      "chemin": "silver/uc06_store_sales",
+      "lignes": 667579,
+      "colonnes": 23
+    },
+    "gold_ventes_magasins": {
+      "chemin": "gold/uc06_ventes_magasins",
+      "lignes": 12,
+      "colonnes": 2
+    },
+    "gold_ventes_articles": {
+      "chemin": "gold/uc06_ventes_articles",
+      "lignes": 17820,
+      "colonnes": 2
+    },
+    "gold_finance_magasins": {
+      "chemin": "gold/uc06_finance_magasins",
+      "lignes": 12,
+      "colonnes": 6
+    },
+    "gold_finance_articles": {
+      "chemin": "gold/uc06_finance_articles",
+      "lignes": 17820,
+      "colonnes": 6
+    }
+  },
+  "controles": {
+    "totaux": {
+      "magasins": {
+        "nombre_lignes": "667579",
+        "quantite_totale": "33755474",
+        "total_ventes": "1277224004.61",
+        "total_net": "1150529586.37",
+        "total_benefice": "-552553374.82"
+      },
+      "articles": {
+        "nombre_lignes": "667579",
+        "quantite_totale": "33755474",
+        "total_ventes": "1277224004.61",
+        "total_net": "1150529586.37",
+        "total_benefice": "-552553374.82"
+      }
+    },
+    "totaux_magasins_articles_identiques": true,
+    "conservation_lignes_ventes": true
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "store": {
+    "raw_octets": 3386,
+    "silver_octets": 10451,
+    "reduction_pourcent": -208.65
+  },
+  "item": {
+    "raw_octets": 6799286,
+    "silver_octets": 3641846,
+    "reduction_pourcent": 46.44
+  },
+  "store_sales": {
+    "raw_octets": 92764700,
+    "silver_octets": 45532130,
+    "reduction_pourcent": 50.92
+  }
+}

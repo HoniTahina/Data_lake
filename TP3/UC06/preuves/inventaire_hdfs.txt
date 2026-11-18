@@ -1,0 +1,42 @@
+===== HDFS SILVER =====
+drwxr-xr-x   - honi supergroup          0 2026-11-18 15:33 /retail-lake/silver/uc06_item
+-rw-r--r--   1 honi supergroup          0 2026-11-18 15:33 /retail-lake/silver/uc06_item/_SUCCESS
+-rw-r--r--   1 honi supergroup    2931198 2026-11-18 15:33 /retail-lake/silver/uc06_item/part-00000-7f06396a-8430-4e8e-adfa-98f649d19a65-c000.snappy.parquet
+-rw-r--r--   1 honi supergroup     710648 2026-11-18 15:33 /retail-lake/silver/uc06_item/part-00001-7f06396a-8430-4e8e-adfa-98f649d19a65-c000.snappy.parquet
+drwxr-xr-x   - honi supergroup          0 2026-11-18 15:20 /retail-lake/silver/uc06_store
+-rw-r--r--   1 honi supergroup          0 2026-11-18 15:20 /retail-lake/silver/uc06_store/_SUCCESS
+-rw-r--r--   1 honi supergroup      10451 2026-11-18 15:20 /retail-lake/silver/uc06_store/part-00000-f5e7750e-71cd-4ab9-8ffc-49df511cda8c-c000.snappy.parquet
+drwxr-xr-x   - honi supergroup          0 2026-11-18 15:33 /retail-lake/silver/uc06_store_sales
+-rw-r--r--   1 honi supergroup          0 2026-11-18 15:33 /retail-lake/silver/uc06_store_sales/_SUCCESS
+-rw-r--r--   1 honi supergroup   23784255 2026-11-18 15:33 /retail-lake/silver/uc06_store_sales/part-00000-f427344b-0eee-4faf-bec2-e8fe5e7c45dd-c000.snappy.parquet
+-rw-r--r--   1 honi supergroup   21747875 2026-11-18 15:33 /retail-lake/silver/uc06_store_sales/part-00001-f427344b-0eee-4faf-bec2-e8fe5e7c45dd-c000.snappy.parquet
+
+===== HDFS GOLD =====
+drwxr-xr-x   - honi supergroup          0 2026-11-18 16:01 /retail-lake/gold/uc06_finance_articles
+-rw-r--r--   1 honi supergroup          0 2026-11-18 16:01 /retail-lake/gold/uc06_finance_articles/_SUCCESS
+-rw-r--r--   1 honi supergroup     443078 2026-11-18 16:01 /retail-lake/gold/uc06_finance_articles/part-00000-efdf9067-6569-4b33-92a8-05dcc54725e3-c000.snappy.parquet
+drwxr-xr-x   - honi supergroup          0 2026-11-18 16:01 /retail-lake/gold/uc06_finance_magasins
+-rw-r--r--   1 honi supergroup          0 2026-11-18 16:01 /retail-lake/gold/uc06_finance_magasins/_SUCCESS
+-rw-r--r--   1 honi supergroup       2360 2026-11-18 16:01 /retail-lake/gold/uc06_finance_magasins/part-00000-9f587bdb-30f3-46d9-9959-40e9d26c16f4-c000.snappy.parquet
+drwxr-xr-x   - honi supergroup          0 2026-11-18 15:53 /retail-lake/gold/uc06_ventes_articles
+-rw-r--r--   1 honi supergroup          0 2026-11-18 15:53 /retail-lake/gold/uc06_ventes_articles/_SUCCESS
+-rw-r--r--   1 honi supergroup     110304 2026-11-18 15:53 /retail-lake/gold/uc06_ventes_articles/part-00000-2b423f13-022d-40ca-85c7-c7e7900e21ea-c000.snappy.parquet
+drwxr-xr-x   - honi supergroup          0 2026-11-18 15:53 /retail-lake/gold/uc06_ventes_magasins
+-rw-r--r--   1 honi supergroup          0 2026-11-18 15:53 /retail-lake/gold/uc06_ventes_magasins/_SUCCESS
+-rw-r--r--   1 honi supergroup        874 2026-11-18 15:53 /retail-lake/gold/uc06_ventes_magasins/part-00000-f3a6d0b8-2d93-4519-81fc-f43e16b9fc60-c000.snappy.parquet
+
+===== TAILLES RAW =====
+3.3 K  3.3 K  /retail-lake/raw/nifi/store.dat
+6.5 M  6.5 M  /retail-lake/raw/tpcxbb/initial/item/item.dat
+88.5 M  88.5 M  /retail-lake/raw/tpcxbb/initial/store_sales/store_sales.dat
+
+===== TAILLES SILVER =====
+3.5 M   3.5 M   /retail-lake/silver/uc06_item
+10.2 K  10.2 K  /retail-lake/silver/uc06_store
+43.4 M  43.4 M  /retail-lake/silver/uc06_store_sales
+
+===== TAILLES GOLD =====
+432.7 K  432.7 K  /retail-lake/gold/uc06_finance_articles
+2.3 K    2.3 K    /retail-lake/gold/uc06_finance_magasins
+107.7 K  107.7 K  /retail-lake/gold/uc06_ventes_articles
+874      874      /retail-lake/gold/uc06_ventes_magasins

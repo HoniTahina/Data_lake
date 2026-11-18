@@ -1,0 +1,82 @@
+{
+  "store": {
+    "lignes_echantillon": 12,
+    "largeurs_observees": {
+      "29": 12
+    },
+    "valeurs_vides": {
+      "_c3": 12
+    },
+    "exemples_6_premiers_champs": [
+      [
+        "0",
+        "AAAAAAAAAAAAAAAA",
+        "2000-08-02",
+        "",
+        "71238",
+        "Forest"
+      ],
+      [
+        "1",
+        "AAAAAAAAAAAAAAAB",
+        "2000-07-03",
+        "",
+        "18994",
+        "Hillside"
+      ]
+    ]
+  },
+  "store_sales": {
+    "lignes_echantillon": 1000,
+    "largeurs_observees": {
+      "23": 1000
+    },
+    "valeurs_vides": {},
+    "exemples_6_premiers_champs": [
+      [
+        "36890",
+        "71480",
+        "10001",
+        "44404",
+        "493944",
+        "2898"
+      ],
+      [
+        "36890",
+        "71480",
+        "10000",
+        "44404",
+        "493944",
+        "2898"
+      ]
+    ]
+  },
+  "item": {
+    "lignes_echantillon": 1000,
+    "largeurs_observees": {
+      "22": 1000
+    },
+    "valeurs_vides": {
+      "_c3": 1000,
+      "_c4": 1
+    },
+    "exemples_6_premiers_champs": [
+      [
+        "0",
+        "AAAAAAAAAAAAAAAA",
+        "2000-01-14",
+        "",
+        "quickly even dinos beneath the frays must have to boost boldly careful bold escapades: stealthily even forges over the dependencies integrate always past the quiet sly decoys-- notornis sol",
+        "72.29"
+      ],
+      [
+        "1",
+        "AAAAAAAAAAAAAAAB",
+        "2000-09-23",
+        "",
+        "quietly quiet hockey players outside the furiously fluffy sauternes impress daringly silently quiet gifts? bold ruthless escapades run slyly epitaphs! warhorses of the carefull",
+        "95.67"
+      ]
+    ]
+  }
+}
